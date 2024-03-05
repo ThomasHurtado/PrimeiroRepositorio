@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #57290B;
+    color: #F0F0F0;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.8px;
+}
+
+nav{
+    margin-left: 119px;
+    margin-right: 119px;
+    padding-top: 39px;
+}
+
+.Cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Cabeçalho-Parte{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Linhas{
+    margin-left:10px;
+    padding-top: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Linhas-Flex{
+    width: 41.5%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.Linhas-Estilo{
+    width: 43px;
+    height: 2px;
+    background-color: #B2784A;
+    border-radius: 1px;
+}
+
+.Linha-Especial{
+    width: 43px;
+    height: 2px;
+    background-color: #57290B;
+}
+
+.Parte-Logo{
+    padding-top: 4px;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.Logo{
+    position: absolute;
+    left: 50%;
+    top:7px;
+}
+
+.Vector{
+    position: absolute;
+    top:40px;
+    left:1102px;    
+}
+
+.Texto-H1{
+    margin-left: 119px;
+    position: absolute;
+    top:163px;
+    font-size: 56px;
+    font-family: Open Sans;
+    font-weight: 700;
+    line-height: 76.26px;
+    color: #F0F0F0;
+}
+
+.Texto-H2{
+    top:407px;
+    margin-left: 119px;
+    position: absolute;
+    font-size: 24px;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: 33px;
+    color: #F0F0F0;
+
+}
